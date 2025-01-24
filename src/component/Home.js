@@ -20,7 +20,7 @@ function Home() {
       </div>
       
       <div className="lowbanner">
-        <h1>Love Your Pets, Love Our Products!</h1>
+        <h1>This is the change , Love Our Products!</h1>
         <p>Discover the best for your furry, feathered, or scaly friends.</p>
         <Link to="#" className="btn btn-primary" role="button" aria-disabled="true">Know More</Link>
       </div>
