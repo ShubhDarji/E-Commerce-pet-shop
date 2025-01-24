@@ -1,0 +1,170 @@
+.hero {
+  color: rgb(0, 0, 0);
+  border:5px solid black;
+}
+.lowbanner {
+  text-align: center;
+  padding-top: 0.5vh;
+
+  padding-bottom: 3vh;
+  color: rgb(0, 0, 0);
+
+  background-color: #ecedea;
+}
+.container1 {
+  width: 100vw;
+  max-height: 80vh;
+  box-shadow: 5px 100px black;
+}
+
+h1 {
+  padding-bottom: 1vh;
+  padding-top: 5vh;
+
+  background-color: #ecedea;
+  margin-top: 1vh;
+}
+
+.lowp {
+  font-size: 1.5em;
+  background-color: #ecedea;
+}
+
+.lowbtn {
+  padding: 10px 20px;
+  border: 2x bold black;
+  border-radius: 5% ;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.featured-categories {
+  padding: 10px;
+margin-top: 3vh;
+}
+
+.featured-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vh;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: black;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+.category {
+  flex: 1 1 30%;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 17px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+  background-color: white;
+}
+
+.category h3 {
+  margin-top: 0;
+}
+.category img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.special-offers, .customer-testimonials, .newsletter-signup {
+  padding: 20px;
+}
+
+.special-offers p, .customer-testimonials blockquote {
+  font-size: 1.2em;
+}
+
+.newsletter-signup input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.newsletter-signup button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Special CSS */
+.special-offers, .customer-testimonials, .newsletter-signup {
+  padding: 20px;
+}
+
+.special-offers p, .customer-testimonials blockquote {
+  font-size: 1.2em;
+}
+
+.newsletter-signup input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.newsletter-signup button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Additional special CSS */
+.special-offers {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.special-offers p {
+  color: #ff6347;
+}
+
+.customer-testimonials {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.customer-testimonials blockquote {
+  font-style: italic;
+  color: #333;
+  border-left: 5px solid #ff6347;
+  padding-left: 15px;
+}
+
+.newsletter-signup {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-signup input {
+  width: calc(100% - 150px);
+}
+
+.newsletter-signup button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter-signup button:hover {
+  background-color: #e5533c;
+}

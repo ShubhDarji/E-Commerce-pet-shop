@@ -1,0 +1,25 @@
+/* Custom styling for the navbar */
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.nav-link.active {
+  color: #007bff;
+}
+
+.dropdown-menu {
+  border-radius: 0.25rem;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}

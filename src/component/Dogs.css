@@ -1,0 +1,94 @@
+/* General styling for the page */
+.dogs-page {
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background color for the page */
+  }
+  
+  /* Styling for the product list */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Styling for each product card */
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the product image */
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Styling for the product name */
+  .product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  /* Styling for the product description */
+  .product-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Styling for the product price */
+  .product-card p:last-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Additional styling for special offers */
+  .special-offers, .customer-testimonials, .newsletter-signup {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .special-offers p, .customer-testimonials blockquote {
+    font-size: 1.2em;
+  }
+  
+  /* Styling for newsletter signup */
+  .newsletter-signup input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    width: calc(100% - 150px);
+  }
+  
+  .newsletter-signup button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .newsletter-signup button:hover {
+    background-color: #e5533c;
+  }
+  
